@@ -1,0 +1,19 @@
+.StartProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+}
+
+.StartProduct>div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+     border: 2px solid red;
+}
+.StartProduct img{
+    transition: all 0.5s;
+}
+.StartProduct img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}
