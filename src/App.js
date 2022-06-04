@@ -11,8 +11,10 @@ import Heading from './Component/Heading.js'
 import StartProduct from  './Component/StartProduct.js'
 import HotaccessoriesMenu from './Component/HotaccessoriesMenu.js'
 import Hotaccessories from './Component/Hotaccessories.js'
-import ProductReviews from './Component/ProductReviews'
+import ProductReviews from './Component/ProductReviews.js'
 function App() {
+
+  
   return (
     <Router> 
       <PreNavber/>
@@ -39,6 +41,7 @@ function App() {
        <Hotaccessories mobileaccessories={data.hotaccessories.mobileaccessories} mobileaccessoriesCover={data.hotaccessoriesCover.mobileaccessories}/>
       </Route>
       <Heading text="ProductReviews"/>
+      <ProductReviews/>
       </Router>
 
   );
