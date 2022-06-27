@@ -9,7 +9,7 @@ const HotaccessoriesMenu = () => {
         <Link className='Hotaccessorieslink' to="/smartDivice">smart Divice </Link>
         <Link className='Hotaccessorieslink' to="/home">Home</Link>
         <Link className='Hotaccessorieslink' to="/lifestyle">lifestyle</Link>
-        <Link className='Hotaccessorieslink' to="/mobile accessories"> Mobile accessories</Link>
+        {/* <Link className='Hotaccessorieslink' to="/mobile accessories"> Mobile accessories</Link> */}
     </div>
   )
 }

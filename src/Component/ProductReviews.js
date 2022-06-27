@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ProductReviewsCard from "./ProductReviewsCard.js"
 const ProductReviews = () => {
   return (
     <div className="ProductReviews">

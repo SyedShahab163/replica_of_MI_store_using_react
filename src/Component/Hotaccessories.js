@@ -31,9 +31,9 @@ const Hotaccessories = (music,musicCover,smartDivices,smartDivicesCover,home,hom
               {lifestyle && lifestyle.map((item,index)=>(
           <HotItemCard key={item.image} name={item.name} price={item.price} image={item.image} index={index}/>  
              )) }
-              {mobileaccessories && mobileaccessories.map((item,index)=>(
+              {/* {mobileaccessories && mobileaccessories.map((item,index)=>(
           <HotItemCard key={item.image} name={item.name} price={item.price} image={item.image} index={index}/>  
-             )) }
+             )) } */}
 
              <HotItemCard image=""/>
     </div>
