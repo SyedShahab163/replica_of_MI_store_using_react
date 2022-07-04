@@ -16,6 +16,7 @@ import ProductReviews from './Component/ProductReviews.js'
 import Video from './Component/Video.js'
 import Banner from './Component/Banner.js'
 import Footer from './Component/Footer.js'
+import Navoptios from './Component/Navoptios.js'
 function App() {
 
   
@@ -23,6 +24,7 @@ function App() {
     <Router> 
       <PreNavber/>
       <Navbar/>
+      <Navoptios miphone={data.miphones} redmiphones={data.redmiphones} tv={data.tv} laptop={data.laptop} fitnessAndlifeStyle={data.fitnessAndlifeStyle} home={data.home} accessories={data.accessories} audio={data.audio}/>
       <Slider start={data.banner.start}/> 
       <Offers offer={data.offer}/>
       <Heading text="START PRODUCT"/>  
